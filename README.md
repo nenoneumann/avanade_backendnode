@@ -20,6 +20,18 @@ Passo 2 Provisionar recursos dentro da Azure (App Services) <br>
 Passo 3 abrir o repositorio com o projeto para edição do mesmo. <br>
 Passo 4 devemos criar as pastas para criar nossa pipeline: diretórios (.github/workflows) arquivo de pipeline (prod.yml) <br>
 
+##### Pipeline template:
+
+```
+name: Pipeline CI/CD - Prod
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+```
+
 
 ### Professor Douglas Morais
 #### Desenvolvido com NodeJS | GamaAcademy
