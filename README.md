@@ -30,6 +30,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+
+jobs:
+  build-and-deploy: 
+    name: Iniciando build e deploy
+    runs-on: ubuntu-latest
+    environments: production
 ```
 
 
