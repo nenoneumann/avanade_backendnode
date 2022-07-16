@@ -35,7 +35,7 @@ jobs:
   build-and-deploy: 
     name: Iniciando build e deploy
     runs-on: ubuntu-latest
-    environments: production
+    environment: production
     steps:
     - uses: actions/checkout@master
 
